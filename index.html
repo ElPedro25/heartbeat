@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coração</title>
+</head>
+<body>
+    <div class="heart">
+        ❤
+    </div>
+</body>
+
+<style>
+
+    body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+    .heart {
+    color: red;
+    font-size: 20vh;
+    animation: heart .4s infinite alternate 
+    }
+
+    @keyframes heart {
+    from  {transform: scale(50%) }
+    to {transform: scale(80%) }
+    }
+
+</style>
+</html>
